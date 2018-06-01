@@ -251,4 +251,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     logging = setup_logging()
-    application.run(host='0.0.0.0', debug=False)
+    application.run(host='0.0.0.0', debug=False, port=80)
